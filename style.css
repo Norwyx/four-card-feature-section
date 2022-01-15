@@ -19,3 +19,22 @@ html {
     margin: 0;
     padding: 0;
 }
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    font-family: var(--ff-poppins);
+    font-size: .9375rem;
+    padding: 5rem 1.5rem;
+}
