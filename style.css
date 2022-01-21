@@ -91,6 +91,7 @@ body {
 }
 
 .row__card {
+    max-width: 23.75rem;
     border-radius: 5px;
     color: var(--very-light-gray);
     box-shadow: var(--card-shadow);
@@ -112,4 +113,17 @@ body {
 
 .card__image {
     justify-content: flex-end;
+}
+
+/* Responsive */
+/* 448px */
+@media (min-width: 28rem) {
+    .top__text {
+        max-width: 340px;
+        margin: auto;
+    }
+
+    .row__card {
+        margin: auto;
+    }
 }
