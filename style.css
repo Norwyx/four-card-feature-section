@@ -127,3 +127,23 @@ body {
         margin: auto;
     }
 }
+
+/* 990px */
+@media (min-width: 61.875rem) {
+    .top__text {
+        max-width: 540px;
+    }
+    
+    .container__bottom {
+        flex-direction: row;
+    }
+
+    .top__title {
+        font-weight: 200;
+        font-size: 2.2rem;
+    }
+    
+    .top__subtitle {
+        font-size: 2.2rem;
+    }
+}
